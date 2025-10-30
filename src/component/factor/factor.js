@@ -1,7 +1,7 @@
 export function Factor() {
     const factor = document.createElement("div");
     factor.innerHTML = `
-    <div class="w-1/3 h-100 flex flex-col justify-between bg-[#00c8c4] p-5 rounded-lg text-lg font-medium">
+    <div class="w-106.5 h-100 flex flex-col justify-between bg-[#00c8c4] p-5 rounded-lg text-lg font-medium">
         <div class="flex flex-col gap-5">
           <div class="flex flex-row-reverse justify-between">
             <div dir="rtl">جمع کل سفارشات:</div>

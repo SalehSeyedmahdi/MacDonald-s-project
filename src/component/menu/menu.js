@@ -1,7 +1,7 @@
 export function Menu() {
     const menu = document.createElement("div");
     menu.innerHTML = `
-    <div class="w-2/3 h-full bg-[#00c8c4] flex flex-col justify-between items-center gap-10 rounded-lg p-5">
+    <div class="w-213 h-full bg-[#00c8c4] flex flex-col justify-between items-center gap-10 rounded-lg p-5">
         <p class="text-[#ffffff] text-2xl font-bold">رستوران مک دونالد شعبه تهران</p>
         <div class="flex flex-col gap-5 overflow-y-scroll" dir="rtl">
           <div class="w-full flex flex-row gap-5" dir="ltr">  
