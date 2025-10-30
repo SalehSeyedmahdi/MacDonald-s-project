@@ -1,5 +1,6 @@
 export function DiscountCheck() {
 
+  const finalPrice = document.querySelector(".final-price");
 
   const totalOrder = document.querySelector(".total-order");
   const discount = document.querySelector(".discount");

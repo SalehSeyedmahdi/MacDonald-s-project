@@ -1,4 +1,5 @@
 export function RemoveFood(e) {
+    const finalPrice = document.querySelector(".final-price");
     const countFood = e.target.closest(".food-item").querySelector(".food-number");
     const currentCount = parseInt(countFood.innerText);
     if (currentCount > 0) {
